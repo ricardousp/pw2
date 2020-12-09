@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title> Nosso singelo formulário </title>
+        <title> Formulário de Login </title>
         <meta charset="utf-8">
     </head>
     <body>
