@@ -33,7 +33,7 @@
                <div class="card-body">
                     <div class="form-group">
                          <label id="escolaridade">Escolaridade:</label>
-                         <select name="escolaridade" id="escolaridade" class="custom-select">
+                         <select name="escolaridade" id="escolaridade" class="custom-select" multiple>
                               <option value="em">Ensino Médio</option>
                               <option value="nt">Nível Técnico</option>
                               <option value="ns">Nível Superior</option>
@@ -49,11 +49,11 @@
                     </div>
                     <div class="form-group">
                          <label>Áreas de Interesse</label> <br>
-                         <label class="mr-3"><input type="radio" name="interesse" value="Computação" checked> Computação</label>
-                         <label class="mr-3"><input type="radio" name="interesse" value="Biologia" > Biologia</label>
-                         <label class="mr-3"><input type="radio" name="interesse" value="Meio Ambiente" > Meio Ambiente</label>
-                         <label class="mr-3"><input type="radio" name="interesse" value="Engenharia" > Engenharia</label>
-                         <label class="mr-3"><input type="radio" name="interesse" value="História" > História</label>
+                         <label class="mr-3"><input type="checkbox" name="interesse" value="Computação" checked> Computação</label>
+                         <label class="mr-3"><input type="checkbox" name="interesse" value="Biologia" > Biologia</label>
+                         <label class="mr-3"><input type="checkbox" name="interesse" value="Meio Ambiente" > Meio Ambiente</label>
+                         <label class="mr-3"><input type="checkbox" name="interesse" value="Engenharia" > Engenharia</label>
+                         <label class="mr-3"><input type="checkbox" name="interesse" value="História" > História</label>
                     </div>
                     <div class="form-group">
                          <label for="minicurriculo">Mini-currículo:</label>
