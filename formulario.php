@@ -1,3 +1,9 @@
+<?php
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +39,7 @@
                <div class="card-body">
                     <div class="form-group">
                          <label id="escolaridade">Escolaridade:</label>
-                         <select name="escolaridade" id="escolaridade" class="custom-select" multiple>
+                         <select name="escolaridade" id="escolaridade" class="custom-select">
                               <option value="em">Ensino Médio</option>
                               <option value="nt">Nível Técnico</option>
                               <option value="ns">Nível Superior</option>
