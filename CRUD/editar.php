@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'relacionamentos');
+$conn = mysqli_connect('localhost', 'root', '', 'crud');
 if (mysqli_connect_errno()) {
     die('Não foi possível se conectar com o banco de dados: ' . mysqli_connect_error());
 }
