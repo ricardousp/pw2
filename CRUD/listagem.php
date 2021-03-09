@@ -6,7 +6,7 @@
 //$nome = "Ricardo%'; DROP TABLE clientes; #"; // # comenta tudo o que vem depois para não dar erro de sintax no sql.
 //"SELECT * FROM clientes WHERE nome LIKE '%Ricardo%'; DROP TABLE clientes; #%'";
 
-$conn = mysqli_connect('localhost', 'root', '', 'relacionamentos');
+$conn = mysqli_connect('localhost', 'root', '', 'crud');
 // Todas as operaçoes realizadas aqui utilizarão a codificação utf-8
 mysqli_set_charset($conn, 'utf-8');
 if(mysqli_connect_errno()){
